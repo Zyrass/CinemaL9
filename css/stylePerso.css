@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body {
+  background-image: url(../assets/img/bgDark.png);
+}
+
+body > main {
+  margin-top: 70px;
+}
+.text-info {
+  color: #3364a1;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  opacity: .8;
+  text-align: center;
+}
+.jumbotron>q{
+  color: #3364a1;
+}
+h1,h2,h3,h4,h5,h6,
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small, legend {
+  color: #fff;
+  text-transform: uppercase;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.well {
+  opacity: .8;
+  box-shadow: 0 0 20px #fff;
+}
+.well:hover {
+  transition: opacity 1s ease;
+  opacity: 0.8;
+  transition: box-shadow 1s ease 1s;
+  box-shadow: 0 0 60px #fff;
+}
+.thTitle, .tdTitle {
+  font-size: 18px;
+  background-color: #3364a1;
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.thumbnail {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+#imgResize {
+  background-size: cover;
+  width: auto;
+  height: 400px ;
+}
+#imgResize:hover {
+  box-shadow: 0 0 10px #3364a1;
+}
+
+#carousel {
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px #fff;
+}
+.slideBlockquote {
+  background-color: #3364a1;
+  color: #fff;
+}
+.slideBlockquote:hover {
+  background-color: #3364a1;
+  color: #fff;
+}
+#carousel .imgCarousel {
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+}
+.navbar {
+  box-shadow: 0 0 10px #fff;
+}
+#imgAllMovies:hover {
+  transition: background-color 2000s ease;
+  background-color: #3364a1;
+  transition: box-shadow 1s ease;
+  box-shadow: 0 0 10px #fff;
+}
+#imgAllMovies:hover > h5 a:hover,
+figcaption:hover > a:hover {
+  transition: color 1s ease;
+  color: #000;
+  transition: text-shadow 1s ease;
+  text-shadow: 0 0 4px #fff;
+}
+.img-circle {
+  height: 50%;
+  width: 50%;
+  box-shadow: 0 0 20px #3364a1;
+}
+.img-circle:hover {
+  transition: box-shadow .5s ease;
+  box-shadow: 0 0 40px #fff;
+}
+
+figcaption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#imgAllDirectors {
+
+}
+#alertInfoActor {
+  opacity: .5;
+}
+#alertInfoActor:hover {
+  transition: opacity .5s ease;
+  opacity: 1;
+}
